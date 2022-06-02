@@ -1,0 +1,307 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #322f5a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+body .wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+body .wrapper .wTitle {
+  color: whitesmoke;
+}
+
+body .wrapper .title {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  text-align: center;
+}
+
+body .wrapper .title .info {
+  position: absolute;
+  right: 38%;
+  top: 50%;
+  -webkit-transform: translate(-20%, -50%);
+          transform: translate(-20%, -50%);
+  color: whitesmoke;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+body .wrapper .title .info:hover {
+  color: darkkhaki;
+}
+
+body .wrapper .modal-shadow {
+  visibility: hidden;
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+body .wrapper .modal-shadow .modal {
+  background-color: aliceblue;
+  border: 2px solid red;
+  width: 15%;
+  position: relative;
+  border-radius: 25px;
+  padding: 1%;
+  list-style: upper-roman;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .wrapper .modal-shadow .close {
+  border-radius: 15px;
+  background-color: teal;
+  border: hidden;
+  width: 30%;
+  line-height: 2rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+body .wrapper .modal-shadow .close:hover {
+  background-color: #03744e;
+  color: whitesmoke;
+}
+
+body .wrapper textArea {
+  border-radius: 8px;
+  background-color: aliceblue;
+  padding: 1%;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 765px) {
+  body .wrapper textArea {
+    font-size: 14px;
+  }
+}
+
+body .wrapper .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  color: whitesmoke;
+}
+
+body .wrapper .answer {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+body .wrapper .answer .text {
+  color: brown;
+}
+
+body .wrapper .answer .signs {
+  color: brown;
+}
+
+body .wrapper .catFact {
+  text-align: center;
+  width: 50%;
+  background-color: #474383;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 765px) {
+  body .wrapper .catFact {
+    width: 85%;
+  }
+}
+
+body .wrapper .catFact span {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+body .wrapper .reset {
+  width: 10%;
+  border-radius: 15px;
+  border: 1px solid blue;
+  line-height: 1.5rem;
+  background: linear-gradient(45deg, red, blue);
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 765px) {
+  body .wrapper .reset {
+    width: 40%;
+  }
+}
+
+body .wrapper .reset:hover {
+  color: #b9fc02;
+}
+
+body .wrapper .catFactBtn {
+  line-height: 2rem;
+  margin: 2%;
+  border: 2px solid #4c00ff;
+  border-radius: 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body .wrapper .catFactBtn:hover {
+  cursor: pointer;
+  background-color: #0088ff;
+  border: 2px solid #00ff62;
+  color: white;
+}
+
+body .wrapper .wordGameBtn, body .wrapper .wordGameBtn:visited {
+  color: black;
+  text-decoration: none;
+  background-color: antiquewhite;
+  padding: 1%;
+  border-radius: 25px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body .wrapper .wordGameBtn {
+  position: absolute;
+  bottom: 5%;
+}
+
+body .wrapper .wordGameBtn:hover {
+  background-color: aliceblue;
+  font-size: 20px;
+}
+
+body .wrapper .popUp {
+  -webkit-transform: translateY(-950%);
+          transform: translateY(-950%);
+  position: relative;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: whitesmoke;
+  padding: 2% 0;
+  border: 2px solid darkcyan;
+  border-radius: 25px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+@media screen and (max-width: 765px) {
+  body .wrapper .popUp {
+    width: 85%;
+    text-align: center;
+  }
+}
+
+body .wrapper .popUp button {
+  bottom: 10%;
+  position: absolute;
+  width: 25%;
+  line-height: 2rem;
+  border-radius: 15px;
+  border: 2px solid yellowgreen;
+  color: black;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body .wrapper .popUp button:hover {
+  cursor: pointer;
+  width: 30%;
+  line-height: 2.5rem;
+  background-color: bisque;
+  color: #1ed22d;
+}
+
+body .wrapper .popUpActive {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.black {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

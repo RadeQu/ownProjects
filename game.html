@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>Word Game</title>
+</head>
+
+<body>
+    <main class="wrapper">
+        <div class="title">
+            <h1 class="wTitle">Word game</h1> <ion-icon class="info " name="help-outline"></ion-icon>
+        </div>
+        <div class="modal-shadow">
+        <div class="modal">
+            <h2>How to play:</h2>
+            <li>Press start/change button to display a text</li>
+            <li>If you want another text press start/change button again</li>
+            <li>Repeat text as fast as you can</li>
+            <li>When you end you will get information about how fast you repeat text and how many misstakes you made</li>
+            <button class="close">Close</button>
+         </div>
+        </div>
+        <h2 class="catFact"></h2>
+        <textarea id="UserText" cols="30" rows="10" placeholder="Repeat text"></textarea>
+        <button class="catFactBtn">Start Game \ Change word</button>
+        <button class="reset">Reset Game</button>
+        <div class="popUp">
+            <p>
+              <h3>Your time is <span class="minutes"></span> <span class="seconds"></span> seconds and <span class="miliseconds"></span> miliseconds!</h3>
+             <h3>You also made <span class="misstakes"></span> misstakes!</h3>
+            </p>
+        
+            <button class="refreshBtn">Ok!</button>
+        </div>
+        <a class="wordGameBtn" href="./index.html">Words Counter</a>
+    </main>
+    
+    <script src="./game.js"></script>
+</body>
+
+</html>
