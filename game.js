@@ -118,10 +118,10 @@ const showModal = () => {
 	if(modalShadow.style.visibility === "hidden"){
 		modalShadow.style.visibility = "visible";
 	} else {
-		modalShadow.style.visibility = "hidden"
+		modalShadow.style.visibility = "hidden";
 	}
 }
-console.log(modalShadow)
+showModal()
 const closeBtn = document.querySelector(".close")
 closeBtn.addEventListener('click', showModal)
 const infoBtn = document.querySelector(".info")
