@@ -149,7 +149,7 @@ const confirmedEvidences = document.querySelectorAll(".confirmed");
 
 const handleConfirmed = (el) => {
 	confirmedEvidences.forEach(ele => {
-		addEvidence(`${el.innerHTML}`, ele, el)
+		addEvidence(`${el.innerHTML}`, el, ele)
 	})
 }
 
