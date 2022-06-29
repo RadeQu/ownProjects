@@ -1,0 +1,290 @@
+[
+   {
+    "name": "Banshee",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": false,
+        "Fingerprints": true,
+        "Ghost Orb": true,
+        "Ghost writing": false,
+        "Freezing temperature": false,
+        "D.O.T.S.": true
+    }
+   },
+   {
+    "name": "Demon",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": false,
+        "Fingerprints": true,
+        "Ghost Orb": false,
+        "Ghost writing": true,
+        "Freezing temperature": true,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Goryo",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": false,
+        "Fingerprints": true,
+        "Ghost Orb": false,
+        "Ghost writing": false,
+        "Freezing temperature": false,
+        "D.O.T.S.": true
+    }
+   },
+   {
+    "name": "Hantu",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": false,
+        "Fingerprints": true,
+        "Ghost Orb": true,
+        "Ghost writing": false,
+        "Freezing temperature": true,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Jinn",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": false,
+        "Fingerprints": true,
+        "Ghost Orb": false,
+        "Ghost writing": false,
+        "Freezing temperature": true,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Mare",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": true,
+        "Fingerprints": false,
+        "Ghost Orb": true,
+        "Ghost writing": true,
+        "Freezing temperature": false,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Mimic",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": true,
+        "Fingerprints": true,
+        "Ghost Orb": true,
+        "Ghost writing": false,
+        "Freezing temperature": true,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Myling",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": false,
+        "Fingerprints": true,
+        "Ghost Orb": false,
+        "Ghost writing": true,
+        "Freezing temperature": false,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Obake",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": false,
+        "Fingerprints": true,
+        "Ghost Orb": true,
+        "Ghost writing": false,
+        "Freezing temperature": false,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Oni",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": false,
+        "Fingerprints": false,
+        "Ghost Orb": false,
+        "Ghost writing": false,
+        "Freezing temperature": true,
+        "D.O.T.S.": true
+    }
+   },
+   {
+    "name": "Onryo",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": true,
+        "Fingerprints": false,
+        "Ghost Orb": true,
+        "Ghost writing": false,
+        "Freezing temperature": true,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Phantom",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": true,
+        "Fingerprints": true,
+        "Ghost Orb": false,
+        "Ghost writing": false,
+        "Freezing temperature": false,
+        "D.O.T.S.": true
+    }
+   },
+   {
+    "name": "Poltergeist",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": true,
+        "Fingerprints": true,
+        "Ghost Orb": false,
+        "Ghost writing": true,
+        "Freezing temperature": false,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Raiju",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": false,
+        "Fingerprints": false,
+        "Ghost Orb": true,
+        "Ghost writing": false,
+        "Freezing temperature": false,
+        "D.O.T.S.": true
+    }
+   },
+   {
+    "name": "Revenant",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": false,
+        "Fingerprints": false,
+        "Ghost Orb": true,
+        "Ghost writing": true,
+        "Freezing temperature": true,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Shade",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": false,
+        "Fingerprints": false,
+        "Ghost Orb": false,
+        "Ghost writing": true,
+        "Freezing temperature": true,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Spirit",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": true,
+        "Fingerprints": false,
+        "Ghost Orb": false,
+        "Ghost writing": true,
+        "Freezing temperature": false,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "The Twins",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": true,
+        "Fingerprints": false,
+        "Ghost Orb": false,
+        "Ghost writing": false,
+        "Freezing temperature": true,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Wraith",
+    "evidence":{
+        "EMF5": true,
+        "Spirit Box": true,
+        "Fingerprints": false,
+        "Ghost Orb": false,
+        "Ghost writing": false,
+        "Freezing temperature": false,
+        "D.O.T.S.": true
+    }
+   },
+   {
+    "name": "Yokai",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": true,
+        "Fingerprints": false,
+        "Ghost Orb": true,
+        "Ghost writing": false,
+        "Freezing temperature": false,
+        "D.O.T.S.": true
+    }
+   },
+   {
+    "name": "Yurei",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": false,
+        "Fingerprints": false,
+        "Ghost Orb": true,
+        "Ghost writing": false,
+        "Freezing temperature": true,
+        "D.O.T.S.": true
+    }
+   },
+   {
+    "name": "Moroi",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": true,
+        "Fingerprints": false,
+        "Ghost Orb": false,
+        "Ghost writing": true,
+        "Freezing temperature": true,
+        "D.O.T.S.": false
+    }
+   },
+   {
+    "name": "Deogen",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": true,
+        "Fingerprints": false,
+        "Ghost Orb": false,
+        "Ghost writing": true,
+        "Freezing temperature": false,
+        "D.O.T.S.": true
+    }
+   },
+   {
+    "name": "Thaye",
+    "evidence":{
+        "EMF5": false,
+        "Spirit Box": false,
+        "Fingerprints": false,
+        "Ghost Orb": true,
+        "Ghost writing": true,
+        "Freezing temperature": false,
+        "D.O.T.S.": true
+    }
+   }
+]

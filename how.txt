@@ -1,0 +1,3 @@
+Lista duchow z dowodami
+Uzytkownik wpisuje dowod
+sprawdzenie ktory duch ma dany dowod (usuniecie blednych duchow)
